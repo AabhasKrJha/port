@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.first-view {
+  color: white;
+  padding: 10vh;
+  background-color: black;
+}
+
+.main-frame {
+  border-bottom: 5px solid white;
+}
+
+.main-frame #name .name {
+  font-size: 200px;
+  font-weight: 800;
+}
+
+.main-frame #theme-switches {
+  margin-bottom: 70px;
+}
+
+.main-frame #theme-switches .circle {
+  display: inline-block;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+/*# sourceMappingURL=style.css.map */
