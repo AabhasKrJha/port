@@ -6,54 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aabhas Kumar Jha (under dev)</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <!--CSS Stylesheets-->
+    <link rel="stylesheet" href="css/basic/style.css"> <!--basic structural style sheet-->
+    <link rel="stylesheet" href="css/default/default_light_theme.css" id="theme-sheet"> <!--theme stylesheet-->
+
+    <!--JS files-->
+    <script src="js/script.js"></script>
 </head>
 <body>
 
+    <!--The first view of the page-->
     <div class="first-view">
 
-        <div class="main-frame">
-            
-            <section id="name">
-                <span class="name">Aabhas</span>
-                <sub>[Under Dev]</sub>
+        <!--The frame that contains the fisrt view-->
+        <div class="main-frame grid-row-5-1-4">
+
+            <!--name-->
+            <section id="name" class="flex-column-rev">
+                <span>
+                    <span class="name">Aabhas</span> 
+                    <sub>[Under Dev]</sub>
+                </span>
+            </section>
+ 
+            <!--Theme Switches-->
+            <section id="theme-switches">
+                <span><!--light theme (default)-->
+                    <span id="light" class="circle default-light" onclick="change_theme('light');"></span>
+                    <!-- <span class="theme-text">Light Theme</span> -->
+                </span>
+                <span><!--Dark-theme (lights out)-->
+                    <span id="dark" class="circle default-dark" onclick="change_theme('dark');"></span>
+                    <!-- <span class="theme-text">Light Out</span> -->
+                </span>
+                <span><!--Dim Theme-->
+                    <span id="dim" class="circle dim" onclick="change_theme('dim');"></span>
+                    <!-- <span class="theme-text">Dim</span> -->
+                </span>
+                <span><!--Dark Red-->
+                    <span id="red" class="circle dark-red" onclick="change_theme('red');"></span>
+                    <!-- <span class="theme-text">Dark Red</span> -->
+                </span>
+                <span><!--Light Green (#36e674 - green color)-->
+                    <span id="green" class="circle light-green" onclick="change_theme('light-green');"></span>
+                    <!-- <span class="theme-text">Light Green</span> -->
+                </span>
             </section>
 
-            <section id="theme-select">
-                <span class="circle light"></span>
-                <span class="circle dark"></span>
-                <span class="circle dim"></span>
-                <span class="circle red"></span>
-                <span class="circle green"></span>
-            </section>
-
-            <section id="description">
-                <div class="left">
-                    <span class="mail">aabhaskrjha@gmail.com</span>
-                    <button>Copy</button> <br>
-                    <div class="designations">
-                        <span>/Student</span> <br>
-                        <span>/programmer</span>
-                    </div>
+            <!--About section of the fisrt view-->
+            <section id="desc" class="grid-column-7-3">
+                <div class="left vertical-center">
+                    <span class="mail">
+                        aabhaskrjha@gmail.com <!--mail-->
+                        <button id="copy_mail_btn" onclick="copy_mail()";>Copy</button> <!--copy mail button-->
+                    </span> <br>
+                    <!--Designations-->
+                    <h3 class="designation">/Student</h3>
+                    <h3 class="designation">/Programmer</h3>
                 </div>
-                <div class="right">
-                    <div class="about">
-                        18 year old <br>
-                        Self Taught Programmer <br>
-                        Turning Bugs into Features <br>
-                        Based in Delhi, India <br>
-                    </div>
-                    <div class="socials">
-                        <a href="">Instagram</a> |
-                        <a href="">Twitter</a> |
-                        <a href="">Github</a> |
-                    </div>
+                <div class="right vertical-center">
+                    <!--About Me-->
+                    <span>18 Year Old</span>
+                    <span>Seld Taught Programmer</span>
+                    <Span>Turning Bugs into Features</Span>
+                    <span>Based in Delhi, India</span> <br>
+                    <!--Social Media links-->
+                    <section class="socials"> 
+                        <a href="https://www.instagram.com/aabhaskrjha_73/">Instagram</a> |
+                        <a href="https://www.twitter.com/AabhasKrJha/">Twitter</a> |
+                        <a href="https://www.github.com/AabhasKrJha/">Github</a>
+                    </section>
                 </div>
             </section>
 
         </div>
 
     </div>
-        
+    
 </body>
 </html>

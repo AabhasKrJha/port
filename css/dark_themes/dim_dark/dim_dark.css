@@ -1,0 +1,27 @@
+@import url(../dark_utilities/dark_utilities.css);
+* {
+  color: whitesmoke;
+}
+
+.first-view {
+  background-color: #15202b;
+}
+
+.main-frame {
+  background-color: #15202b;
+  border-bottom: 5px solid whitesmoke;
+}
+
+.main-frame #desc .left .mail button {
+  background-color: whitesmoke;
+  color: #15202b;
+}
+
+.main-frame #desc .right a {
+  color: #999;
+}
+
+.main-frame #desc .right a:hover {
+  color: whitesmoke;
+}
+/*# sourceMappingURL=dim_dark.css.map */
