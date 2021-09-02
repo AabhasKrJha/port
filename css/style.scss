@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+}
+
+.first-view {
+  display: flex;
+  justify-content: center;
+}
+
+.main-frame {
+  max-width: 1500px;
+  background-color: black;
+  padding: 10vh;
+  border: 6px solid green;
+
+  #name {
+    .name {
+      font-size: 13em;
+      font-weight: 800;
+    }
+  }
+}
