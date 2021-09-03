@@ -24,6 +24,25 @@ main {
 
   #theme-switches {
     margin-bottom: 7vh;
+    .default-light {
+      background: linear-gradient(to right, whitesmoke 50%, black 50%);
+    }
+    .default-dark {
+      background: linear-gradient(to right, black 50%, white 50%);
+    }
+    .dim {
+      background: linear-gradient(
+        to right,
+        rgb(21, 32, 43) 50%,
+        whitesmoke 50%
+      );
+    }
+    .dark-red {
+      background: linear-gradient(to right, black 50%, red 50%);
+    }
+    .light-green {
+      background: linear-gradient(to right, white 50%, #36e674 50%);
+    }
   }
 
   #desc {

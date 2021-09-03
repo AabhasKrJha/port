@@ -1,0 +1,9 @@
+.main-frame {
+  border-bottom: 5px solid whitesmoke;
+  color: whitesmoke;
+}
+
+.main-frame #theme-switches .circle {
+  border: 1px solid white;
+}
+/*# sourceMappingURL=utilities.css.map */

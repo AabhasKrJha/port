@@ -1,0 +1,29 @@
+@import url(../dark-utilities/utilities.css);
+
+body {
+  background-color: black;
+}
+
+.main-frame {
+  border-bottom: 5px solid red;
+  color: red;
+  #desc {
+    .left {
+      button {
+        background-color: red;
+        color: black;
+      }
+    }
+    .right {
+      .socials {
+        a {
+          text-decoration: none;
+          color: rgb(255, 143, 143);
+        }
+        a:hover {
+          color: red;
+        }
+      }
+    }
+  }
+}

@@ -7,8 +7,11 @@
     <title>Aabhas Kumar Jha (under dev)</title>
 
     <link rel="stylesheet" href="css/basic/style.css">
+    <link rel="stylesheet" id="theme-sheet" href="css/light-themes/default-light/theme.css">
 
     <link rel="stylesheet" href="css/media-queries/queries.css">
+
+    <script src="js/script.js"></script>
 
     </head>
 <body>
@@ -20,17 +23,17 @@
             <!--name-->
             <section id="name">
                 <span>
-                    <span class="name">Aabhas</span> <br>
-                    <span>[Under Dev]</span>
+                    <span class="name">Aabhas</span>
                 </span>
             </section>
  
             <!--Theme Switches-->
             <section id="theme-switches">
-                <span id="light" class="circle default-light" ></span>
-                <span id="dark" class="circle default-dark" ></span>
-                <span id="red" class="circle dark-red" ></span>
-                <span id="green" class="circle light-green" ></span>
+                <span id="light" class="circle default-light" onclick="change_theme('light');"></span>
+                <span id="dark" class="circle default-dark" onclick="change_theme('dark');"></span>
+                <span id="green" class="circle dim" onclick="change_theme('dim');"></span>
+                <span id="red" class="circle dark-red" onclick="change_theme('dark-red');"></span>
+                <span id="green" class="circle light-green" onclick="change_theme('light-green');"></span>
             </section>
 
             <!--About section of the fisrt view-->
@@ -38,7 +41,7 @@
                 <div class="left">
                     <span class="mail">
                         aabhaskrjha@gmail.com <!--mail-->
-                        <button class="copy-mail-btn">Copy</button> <!--copy mail button-->
+                        <button id="copy-btn" class="copy-mail-btn" onclick="copy_mail();">Copy</button> <!--copy mail button-->
                     </span> <br><br>
                     <!--Designations-->
                     <h3 class="designation">/Student</h3>

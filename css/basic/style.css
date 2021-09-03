@@ -26,6 +26,31 @@ main {
   margin-bottom: 7vh;
 }
 
+.main-frame #theme-switches .default-light {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, whitesmoke), color-stop(50%, black));
+  background: linear-gradient(to right, whitesmoke 50%, black 50%);
+}
+
+.main-frame #theme-switches .default-dark {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, black), color-stop(50%, white));
+  background: linear-gradient(to right, black 50%, white 50%);
+}
+
+.main-frame #theme-switches .dim {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #15202b), color-stop(50%, whitesmoke));
+  background: linear-gradient(to right, #15202b 50%, whitesmoke 50%);
+}
+
+.main-frame #theme-switches .dark-red {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, black), color-stop(50%, red));
+  background: linear-gradient(to right, black 50%, red 50%);
+}
+
+.main-frame #theme-switches .light-green {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, white), color-stop(50%, #36e674));
+  background: linear-gradient(to right, white 50%, #36e674 50%);
+}
+
 .main-frame #desc .left .designation {
   font-size: 30px;
 }

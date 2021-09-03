@@ -1,0 +1,22 @@
+body {
+  background-color: whitesmoke;
+}
+
+.main-frame #theme-switches .circle {
+  border: 1px solid black;
+}
+
+.main-frame #desc .left button {
+  background-color: black;
+  color: white;
+}
+
+.main-frame #desc .right .socials a {
+  text-decoration: none;
+  color: #999;
+}
+
+.main-frame #desc .right .socials a:hover {
+  color: black;
+}
+/*# sourceMappingURL=theme.css.map */

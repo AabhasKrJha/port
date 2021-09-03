@@ -1,0 +1,31 @@
+body {
+  background-color: whitesmoke;
+}
+
+.main-frame {
+  #theme-switches {
+    .circle {
+      border: 1px solid black;
+    }
+  }
+
+  #desc {
+    .left {
+      button {
+        background-color: black;
+        color: white;
+      }
+    }
+    .right {
+      .socials {
+        a {
+          text-decoration: none;
+          color: #999;
+        }
+        a:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import url(../dark-utilities/utilities.css);
+body {
+  background-color: #15202b;
+}
+
+.main-frame #desc .left button {
+  background-color: white;
+  color: black;
+}
+
+.main-frame #desc .right .socials a {
+  text-decoration: none;
+  color: #999;
+}
+
+.main-frame #desc .right .socials a:hover {
+  color: white;
+}
+/*# sourceMappingURL=theme.css.map */

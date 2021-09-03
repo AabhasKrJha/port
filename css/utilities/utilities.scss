@@ -4,6 +4,8 @@
   height: 40px;
   border-radius: 50%;
   background-color: black;
+  transform: rotateY(0deg) rotate(45deg);
+  cursor: pointer;
 }
 
 .copy-mail-btn {
@@ -11,6 +13,7 @@
   border: none;
   outline: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .grid {
