@@ -1,0 +1,95 @@
+//biggest screen (4k)
+
+@media screen and (min-width: 2000px) {
+  main {
+    display: flex;
+    justify-content: center;
+  }
+  .main-frame {
+    padding-top: 220px;
+    min-width: 1800px;
+    #name .name {
+      font-size: 250px;
+    }
+  }
+}
+
+//below 4k
+
+@media screen and (max-width: 2000px) {
+  main {
+    padding: 0 10vh 0 10vh;
+  }
+}
+
+// very big laptops
+
+@media screen and (max-width: 1680px) {
+  .main-frame {
+    padding-top: 180px;
+    #name .name {
+      font-size: 220px;
+    }
+  }
+}
+
+// big laptops
+
+@media screen and (max-width: 1440px) {
+  .main-frame {
+    padding-top: 140px;
+    #name .name {
+      font-size: 190px;
+    }
+  }
+}
+
+// laptops
+
+@media screen and (max-width: 1366px) {
+  .main-frame {
+    padding-top: 140px;
+    #name .name {
+      font-size: 180px;
+    }
+  }
+}
+
+// tabs
+
+@media screen and (max-width: 1024px) {
+  main {
+    padding: 0 5vh 0 5vh;
+  }
+  .main-frame {
+    padding-top: 130px;
+    #name .name {
+      font-size: 130px;
+    }
+  }
+}
+
+// shift .right to bottom
+
+@media screen and (max-width: 777px) {
+  .main-frame {
+    #desc {
+      display: flex;
+      flex-direction: column;
+      .left {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+// (small) mobiles
+
+@media screen and (max-width: 568px) {
+  .main-frame {
+    padding-top: 90px;
+    #name .name {
+      font-size: 60px;
+    }
+  }
+}

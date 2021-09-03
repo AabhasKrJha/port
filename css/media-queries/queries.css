@@ -1,0 +1,87 @@
+@media screen and (min-width: 2000px) {
+  main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-frame {
+    padding-top: 220px;
+    min-width: 1800px;
+  }
+  .main-frame #name .name {
+    font-size: 250px;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  main {
+    padding: 0 10vh 0 10vh;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .main-frame {
+    padding-top: 180px;
+  }
+  .main-frame #name .name {
+    font-size: 220px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .main-frame {
+    padding-top: 140px;
+  }
+  .main-frame #name .name {
+    font-size: 190px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .main-frame {
+    padding-top: 140px;
+  }
+  .main-frame #name .name {
+    font-size: 180px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    padding: 0 5vh 0 5vh;
+  }
+  .main-frame {
+    padding-top: 130px;
+  }
+  .main-frame #name .name {
+    font-size: 130px;
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .main-frame #desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-frame #desc .left {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .main-frame {
+    padding-top: 90px;
+  }
+  .main-frame #name .name {
+    font-size: 60px;
+  }
+}
+/*# sourceMappingURL=queries.css.map */
