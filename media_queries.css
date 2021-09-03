@@ -5,6 +5,9 @@
 }
 
 @media screen and (max-width: 802px) {
+  main {
+    padding: 0 4vh 0 4vh;
+  }
   .main-frame #desc {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -20,6 +23,9 @@
 }
 
 @media screen and (max-width: 642px) {
+  main {
+    padding: 0 4vh 0 4vh;
+  }
   .main-frame #name .name {
     font-size: 80px;
   }
@@ -29,6 +35,9 @@
 }
 
 @media screen and (max-width: 562px) {
+  main {
+    padding: 0 4vh 0 4vh;
+  }
   .main-frame #name .name {
     font-size: 40px;
   }
@@ -38,6 +47,9 @@
 }
 
 @media screen and (max-width: 343px) {
+  main {
+    padding: 0 4vh 0 4vh;
+  }
   #desc .left .mail button {
     margin-left: 0px;
   }
