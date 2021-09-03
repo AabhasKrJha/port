@@ -1,0 +1,67 @@
+@media screen and (max-width: 1000px) {
+  .main-frame {
+    #name {
+      .name {
+        font-size: 100px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 802px) {
+  .main-frame {
+    #desc {
+      display: flex;
+      flex-direction: column;
+      .left {
+        margin-bottom: 5vh;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 642px) {
+  .main-frame {
+    #name {
+      .name {
+        font-size: 80px;
+      }
+    }
+    #desc {
+      .left {
+        .designation {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 562px) {
+  .main-frame {
+    #name {
+      .name {
+        font-size: 40px;
+      }
+    }
+    #desc {
+      .left {
+        .designation {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 343px) {
+  #desc {
+    .left {
+      .mail {
+        button {
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+}
